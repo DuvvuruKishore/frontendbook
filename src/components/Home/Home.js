@@ -6,11 +6,12 @@ import Movie3 from './movies/Movie3';
 import Movie4 from './movies/movie4';
 import Movie5 from './movies/movie5';
 import Movie6 from './movies/movie6';
+import Navbar from './navbar';
 
 const Home=()=> {
     return (
         <div >
-        
+             <Navbar/>
             <h1>Home</h1>
             <div className="home">
             <Movie1/>

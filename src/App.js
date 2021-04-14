@@ -15,13 +15,13 @@ import BookedDeadpool from './components/Home/movies/booked/bookedDeapool';
 import BookedJoker from './components/Home/movies/booked/bookedJoker';
 import BookedSpiderman from './components/Home/movies/booked/bookedSpiderman';
 import BookedIronman from './components/Home/movies/booked/booledIronman';
-import Navbar from './components/Home/navbar';
+
 
 const App=()=> {
   return (
   
     <BrowserRouter>
-    <Navbar/>
+    
     <Switch>
     <Route path="/" exact component={Auth}/>
     <Route path="/home" exact component={Home}/>

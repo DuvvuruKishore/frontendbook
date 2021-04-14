@@ -1,11 +1,13 @@
 import Ironman from '../../images/Ironman.png';
 import { Link } from "react-router-dom";
 import './booking.css';
+import Navbar from '../../navbar';
 
 
 const Product = () => {
   return (
     <div>
+    <Navbar/>
     <div className="Payment">
     <h2>payment section</h2>
     </div>
